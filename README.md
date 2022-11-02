@@ -7,4 +7,4 @@
 * John William Miones
 * Sean Venz Quijano
 * Kent Stephen Sumalinog
-* Andre Lennard Uy
+* Andre Lenard Uy
