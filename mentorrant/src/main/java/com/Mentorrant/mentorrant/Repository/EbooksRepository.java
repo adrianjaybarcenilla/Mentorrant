@@ -8,6 +8,7 @@ import com.Mentorrant.mentorrant.Entity.EbooksEntity;
 @Repository
 public interface EbooksRepository extends JpaRepository<EbooksEntity , Integer>{
 
-	EbooksEntity findByGenre(String Genre);
+	EbooksEntity findByGenre(String genre);
 	
+	EbooksEntity findByName(String name);
 }
