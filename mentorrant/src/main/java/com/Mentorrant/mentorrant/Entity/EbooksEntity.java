@@ -10,16 +10,16 @@ public class EbooksEntity {
 	private int bookId;
 	private String bookAuthor;
 	private String bookGenre;
-	private int yearLevel;
+	private int yearPublish;
 	
 	public EbooksEntity() {}
 
-	public EbooksEntity(int bookId, String bookAuthor, String bookGenre, int yearLevel) {
+	public EbooksEntity(int bookId, String bookAuthor, String bookGenre, int yearPublish) {
 		super();
 		this.bookId = bookId;
 		this.bookAuthor = bookAuthor;
 		this.bookGenre = bookGenre;
-		this.yearLevel = yearLevel;
+		this.yearPublish = yearPublish;
 	}
 
 	public int getBookId() {
@@ -42,12 +42,12 @@ public class EbooksEntity {
 		this.bookGenre = bookGenre;
 	}
 
-	public int getYearLevel() {
-		return yearLevel;
+	public int getyearPublish() {
+		return yearPublish;
 	}
 
-	public void setYearLevel(int yearLevel) {
-		this.yearLevel = yearLevel;
+	public void setyearPublish(int yearPublish) {
+		this.yearPublish = yearPublish;
 	}
 	
 	
