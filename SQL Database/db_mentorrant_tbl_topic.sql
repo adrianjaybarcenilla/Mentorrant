@@ -18,30 +18,27 @@ USE `db_mentorrant`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `tbl_student`
+-- Table structure for table `tbl_topic`
 --
 
-DROP TABLE IF EXISTS `tbl_student`;
+DROP TABLE IF EXISTS `tbl_topic`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `tbl_student` (
-  `StudentId` int NOT NULL AUTO_INCREMENT,
-  `Name` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
-  `Program` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
-  `Year` int NOT NULL,
-  PRIMARY KEY (`StudentId`),
-  UNIQUE KEY `Id_UNIQUE` (`StudentId`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `tbl_topic` (
+  `TopicId` int NOT NULL AUTO_INCREMENT,
+  `Subject` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`TopicId`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `tbl_student`
+-- Dumping data for table `tbl_topic`
 --
 
-LOCK TABLES `tbl_student` WRITE;
-/*!40000 ALTER TABLE `tbl_student` DISABLE KEYS */;
-INSERT INTO `tbl_student` VALUES (1,'John William','BSCS',3),(2,'Yankee Caburnay','BSIT',2);
-/*!40000 ALTER TABLE `tbl_student` ENABLE KEYS */;
+LOCK TABLES `tbl_topic` WRITE;
+/*!40000 ALTER TABLE `tbl_topic` DISABLE KEYS */;
+INSERT INTO `tbl_topic` VALUES (1,'Application Develoment');
+/*!40000 ALTER TABLE `tbl_topic` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
