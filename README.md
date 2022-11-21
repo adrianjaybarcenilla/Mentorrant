@@ -1,5 +1,6 @@
 # Mentorrant
 
+# A Brief Description
 
 # Contributors
 * Estrella Abueva
@@ -8,3 +9,13 @@
 * Sean Venz Quijano
 * Kent Stephen Sumalinog
 * Andre Lennard Uy
+
+# Files
+
+## Controllers
+
+## Entities
+
+## Repositories
+
+## Services
